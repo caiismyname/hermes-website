@@ -10,8 +10,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.0em;
-  text-decoration: bold;
+  font-size: 2.5em;
 }
 
 p {
@@ -32,21 +31,11 @@ a {
   padding-left: 5%;
 }
 
-.blog-post-show { 
+.center {
   display: block;
-}
-
-.blog-post-hide {
-  display: none;
-}
-
-.blog-table-of-contents-entry {
-  cursor: grab;
-  text-decoration: underline;
-}
-
-.blog-table-of-contents-entry-selected {
-  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media (max-width: 1000px) {
